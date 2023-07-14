@@ -1,5 +1,5 @@
 # word-roulette
-Real-time chatroom built upon the PERN stack and socket.io
+Real-time lobby-based game inspired by Scattergories. Built upon the PERN stack and socket.io
 
 ### Work-In-Progress
 
