@@ -1,5 +1,7 @@
 # word-roulette
-Real-time lobby-based game inspired by Scattergories. Built upon the PERN stack and socket.io
+Lobby-based word game with real-time connectivity. Inspired by Scattergories and similar online loby-based games such as GarticPhone and Skribbl.io
+
+Built upon the PERN stack and socket.io
 
 ### Work-In-Progress
 
