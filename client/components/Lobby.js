@@ -61,7 +61,6 @@ const Lobby = ({socket, user, lobby}) => {
         placeholder='Send a message...'
         onChange={(e) => {
           setMessage(e.target.value)
-          // console.log(message)
         }}
         />
         <button className='send' onKeyDown={handleEnterPress} onClick={sendMessage}>Send</button>
