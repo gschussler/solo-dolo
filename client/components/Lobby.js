@@ -14,7 +14,6 @@ const Lobby = ({socket, user, lobby}) => {
         message: message,
         time: new Date(Date.now()).getHours() + ':' + new Date(Date.now()).getMinutes()
       };
-      setMessage('');
       await socket.emit("send_message", messageContent);
       setMessageList((list) => [...list, messageContent]);
     }
@@ -29,7 +28,7 @@ const Lobby = ({socket, user, lobby}) => {
 
   useEffect(() => {
     socket.on("receive_message", (messageContent) => {
-      console.log(messageContent);
+      // console.log(messageContent);
       setMessageList((list) => [...list, messageContent]);
     });
   }, [socket])
